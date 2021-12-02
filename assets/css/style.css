@@ -826,9 +826,9 @@ textarea{
 
   #modal{
     width: 90%;
-    top: 200px;
+    top: 120px;
     overflow: auto;
-    height: 400px;
+    height: 450px;
   }
   
   #modal-close{
@@ -860,7 +860,7 @@ textarea{
     height: 100px;
     margin-top: 16px;
     font-size: 12px;
-    padding: 32px;
+    padding: 8px;
   }
   
   ::placeholder{
@@ -871,18 +871,15 @@ textarea{
   #submitBtn{
     font-size: 16px;
     height: 40px;
-    margin-bottom: 32px;
+    line-height: 10px;
+    margin-bottom: 8px;
   }
   
   #subModal{
     width: 90%;
-    height: 30%;
+    height: 220px;
     position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 120px;
-    margin: 0 auto;
-   
+    top: 200px;
   }
   
   

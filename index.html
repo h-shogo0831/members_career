@@ -71,7 +71,7 @@
     <li><a href="#">サンプルD</a></li>
     <li><a href="#">サンプルD</a></li>
   </ul>
-  <section id="opening">
+  <div id="opening">
     <video autoplay muted loop  playsinline src="./assets/images/modal.mp4"></video>
     <div class="opLayer">
       <div class="opTextarea">
@@ -83,9 +83,10 @@
         </p>
       </div>
     </div>
-  </section>
+  </div>
   <main>
-    <section class="top">
+
+    <div class="top">
       <ul class="slider">
         <li><img src="./assets/images/slide_1.jpg" alt="オフィス"></li>
         <li><img src="./assets/images/slide_2.jpg" alt="オフィス"></li>
@@ -100,7 +101,8 @@
           </p>
         </div>
       </div>
-    </section>
+    </div>
+
     <section class="about">
       <div class="section-contents">
         <h2 class="section-title">ABOUT</h2>
@@ -195,7 +197,7 @@
           <button class="contact-btn" id="modal-open">お問合せはこちら</button>
         </div>
         <div id="layer" class="hide"></div>
-        <section id="modal" class="hide">
+        <div id="modal" class="hide">
           <div class="modal-contens">
             <div class="form-title">お問い合わせ</div>
             <span class="material-icons" id="modal-close">close</span>
@@ -206,15 +208,15 @@
               <input type="submit" value="送信する" id="submitBtn">
             </form>
           </div>
-        </section>
-        <section id="subModal" class="hide">
+        </div>
+        <div id="subModal" class="hide">
           <span class="material-icons" id="subbatsu">close</span>
           <p>
             <span>送信が完了しました。</span><br>
             内容を確認いたしまして担当よりご連絡させていただきます。
           </p>
           <div id="subModalClose" >閉じる</div>
-        </section>
+        </div>
       </div>
     </section>
   </main>
